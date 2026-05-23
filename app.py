@@ -16,3 +16,9 @@ st.write("Hello, *World!* :sunglasses:")
 
 title = st.text_input("Movie title", "Life of Brian")
 st.write("The current movie title is", title)
+
+st.button("Reset", type="primary")
+if st.button("Say hello"):
+    st.write("Why hello there")
+else:
+    st.write("Goodbye")
