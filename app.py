@@ -1,7 +1,5 @@
 # app.py
 import streamlit as st
-import pandas as pd
-import plotly.express as px
 from datetime import datetime
 
 # Dummy user data (untuk simulasi login)
@@ -113,7 +111,7 @@ elif page == "Settings":
             st.session_state.username = None
             st.session_state.data = None
             st.success("You have been logged out.")
-            st.experimental_rerun()
+            st.rerun()
 
     with st.expander("📝 Update Preferences"):
         theme = st.selectbox("Pilih tema dashboard", ["Default", "Dark", "Colorful"])
