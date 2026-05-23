@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.set_page_config(
-  page_title="kuliah praktisi 2026",
-  layout="centered"
+  page_title="kuliah praktisi 2305",
+  layout="centered",
   page_icon="🧊"
 )
 
